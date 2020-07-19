@@ -90,7 +90,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 /* Me - inf */
 
-.me-inf {
+.me-inf,
+.me-advantages {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,9 +99,15 @@ textarea.materialize-textarea:focus:not([readonly]) {
     font-size: 1.3em;
 }
 
-.me-inf h3 {
+h3 {
     color: #039be5;
 }
+
+.list-Shad li {
+    box-shadow: 0 0 .2em .05em #00000021;
+}
+
+/* Me inf */
 
 .me-inf_wrapper {
     background-color: #f1f1f1;
@@ -123,10 +130,53 @@ textarea.materialize-textarea:focus:not([readonly]) {
     box-shadow: 0 0 .4em .1em #00000060;
 }
 
-.me-advantages ul li {
+
+
+.me-inf_text ul li,
+.me-advantages_content ul li {
     border: 1px solid #00214b4d;
     border-radius: .5em;
     padding: .5em;
     margin-bottom: 1em;
     background-color: #fff;
+}
+
+/* me adventages */
+
+.me-advantages_wrapper {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-advantages_content ul li {
+    background-color: #f8f8f8;
+}
+
+
+/* Contacts */
+
+.contacts_wrapper {
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts>h3 {
+    text-align: center;
+}
+
+.contacts_tel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts_group h3 {
+    color: #0099ff;
 }

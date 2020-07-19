@@ -1,0 +1,56 @@
+@media only screen and (max-width: 850px) {
+    .me-inf_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .me-inf_content :last-child {
+        grid-row: 1/2;
+        margin-bottom: .3em;
+        margin-top: .3em;
+    }
+
+    .me-inf_wrapper {
+        display: block;
+        height: auto;
+    }
+
+    .me-advantages_wrapper {
+        display: block;
+        height: auto;
+    }
+
+    .me-advantages h3 {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 730px) {
+    .top-lay {
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-evenly;
+    }
+
+    .contacts_wrapper {
+        height: 60vh;
+    }
+
+    .contacts :last-child h3 {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .contacts :last-child h3 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contacts :last-child h3 {
+        font-size: 1.6em;
+    }
+}
